@@ -41,18 +41,13 @@ Documentation = "https://obendidi.github.io/rwlocks-python/"
 extra-dependencies = [
     # Test dependencies
     "pytest~=7.2",
-    "coverage[toml]~=6.5",
-    "pytest-cov~=3.0",
-    "chardet~=5.0",
-    "types-chardet~=5.0",
-    "pytest-cases~=3.6.8",
-    "respx~=0.19",
-    "mock~=4.0",
-    "types-mock~=4.0",
+    "coverage[toml]~=7.2",
+    "pytest-cov~=4.0",
+    "trio~=0.22",
     # Linting
     "ruff~=0.0.260",
     "black~=23.3.0",
-    "mypy~=1.1.1",
+    "mypy~=1.2.0",
     "pre-commit",
     # Doc dependencies
     "mkdocs~=1.4",
